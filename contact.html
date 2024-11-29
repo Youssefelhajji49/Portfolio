@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="app.js"></script>
+    <header>
+        <a class="name" href="index.html">Portfolio.</a>
+        <button class="burger-menu" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="Etude.html">Études</a>
+            <a href="projet.html">Projets</a>
+            <a href="competences.html">Compétences</a>
+            <a href="contact.html"class="active">Contact</a>
+        </nav>
+    </header>
+    <div class="centre">
+    <div class="main-content">
+        <h1>Contactez-moi</h1>
+        <div class="contact-container">
+            <!-- Téléphone -->
+            <div class="contact-item">
+                <img src="icon phone.png" alt="Téléphone" class="contact-icon" onclick="showPhoneNumber()">
+                <p id="phone-number" class="hidden">+33 7 58 02 64 04</p>
+            </div>
+    
+            <!-- Email -->
+            <div class="contact-item">
+                <a href="mailto:youssefelhajji48@gmail.com">
+                    <img src="mail icon.png" alt="Email" class="contact-icon">
+                </a>
+            </div>
+    
+            <!-- LinkedIn -->
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/in/youssef-el-hajji-68b13730b/" target="_blank">
+                    <img src="linkedl icon.svg" alt="LinkedIn" class="contact-icon">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>  
+</body>
+</html>
